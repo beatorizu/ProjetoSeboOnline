@@ -1,0 +1,17 @@
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin: 20px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  margin-bottom: -1px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+.list-group-item:ACTIVE{
+	background-color: #000;
+}
+
