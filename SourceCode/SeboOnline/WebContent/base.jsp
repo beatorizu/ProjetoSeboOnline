@@ -38,8 +38,8 @@
             </ul>
             <div class="nav navbar-nav pull-right pad8" style="margin-top: 10px">
                     
-                    <a href="login.jsp"> <button type="button" class="btn btn-primary"> Logar </button></a>
-                    <a href="cadastro.jsp"> <button type="button" class="btn btn-primary"> Cadastrar </button></a>
+                    <a href="login.jsp"> <button type="button" class="btn btn-danger"> Logar </button></a>
+                    <a href="cadastro.jsp"> <button type="button" class="btn btn-danger"> Cadastrar </button></a>
             </div>
         </div>
     </div>

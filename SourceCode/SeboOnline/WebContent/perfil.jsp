@@ -1,4 +1,4 @@
-<%@ include file="../base.jsp"%>
+<%@ include file="base.jsp"%>
 
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
@@ -30,9 +30,20 @@ label {
 	font-weight: 900;
 }
 
-.panel-primary { /* está sendo usado dentro dos includes da página */
-	border-color: #ddd;
+.panel-primary {
+ border-color: #CA4C42;
+ 
 }
+ .panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #CA4C42;
+}
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #CA4C42;
+  border-color: #CA4C42;
+  }
 </style>
 <center>
 		<div>

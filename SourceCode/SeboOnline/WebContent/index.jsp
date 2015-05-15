@@ -29,7 +29,7 @@
                     <input type="text" class="form-control" id="inTituloProduto" placeholder="Título do produto">
                 </div>
                 <div class="col-md-2">
-                    <button type="submit" class="btn bt-preto"> Buscar </button>
+                    <button type="submit" class="btn btn-danger"> Buscar </button>
                 </div>
             </div>
         </div>
@@ -47,42 +47,42 @@
                         <div class="well">
                             <img class="img-rounded tam-img" src="static/img/HPTalismasdaMorte.jpg">
                             <h4> Harry Potter e os Talismãs da Morte </h4>
-                            <p><a href="/quero" class="btn btn-primary"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
+                            <p><a href="https://pagseguro.uol.com.br/#rmcl" class="btn btn-danger"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="well">
                             <img class="img-rounded tam-img" src="static/img/OcachorroEnlameado.jpg">
                             <h4> O Cachorro Enlameado </h4>
-                            <p><a href="/quero" class="btn btn-primary"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
+                            <p><a href="https://pagseguro.uol.com.br/#rmcl" class="btn btn-danger"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="well">
                             <img class="img-rounded tam-img" src="static/img/planeta.jpg">
                             <h4> Cuidando da vida no planeta </h4>
-                            <p><a href="/quero" class="btn btn-primary"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
+                            <p><a href="https://pagseguro.uol.com.br/#rmcl" class="btn btn-danger"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="well">
                             <img class="img-rounded tam-img" src="static/img/manga.jpg">
                             <h4> O grande livro dos Mangás</h4>
-                            <p><a href="/quero" class="btn btn-primary"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
+                            <p><a href="https://pagseguro.uol.com.br/#rmcl" class="btn btn-danger"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="well">
                             <img class="img-rounded tam-img" src="static/img/sonic_pelucia.jpg">
                             <h4> Pelucia Sonic </h4>
-                            <p><a href="/quero" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
+                            <p><a href="https://pagseguro.uol.com.br/#rmcl" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="well">
                             <img class="img-rounded tam-img" src="static/img/eletronica.jpg">
                             <h4> Livro Curso completo de Eletrônica </h4>
-                            <p><a href="/quero" class="btn btn-primary"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
+                            <p><a href="https://pagseguro.uol.com.br/#rmcl" class="btn btn-danger"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Comprar</a></p>
                         </div>
                     </div>
                 </div> <!-- .row -->
