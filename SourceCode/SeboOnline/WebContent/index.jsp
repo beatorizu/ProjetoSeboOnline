@@ -1,4 +1,8 @@
 <%@ include file="base.jsp"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <div class="container text-center">
         <div class="row">
             <div class="col-md-12">
@@ -14,23 +18,62 @@
                 <div class="col-md-2">
                     <p> Buscar por: </p>
                 </div>
-                <div class="col-md-4">
-                    <select class="form-control">
-                        <option> Livros, Mangás e HQs</option>
-                        <option> CDs, DVDs e BLU-RAYs </option>
-                        <option> Vestuario </option>
-                        <option> Informática </option>
-                        <option> Brinquedos e Games </option>
-                        <option> Móveis </option>
-                        <option> Outros </option>
-                    </select>
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" id="inTituloProduto" placeholder="Título do produto">
-                </div>
-                <div class="col-md-2">
-                    <button type="submit" class="btn btn-danger"> Buscar </button>
-                </div>
+        <form method="post" action="consultarItens">
+		<span>Titulo</span> <input type="text" name="nomeConsulta" /> 
+		<input type="submit" value="Pesquisar" />
+		</form>
+	
+	<br />
+	<br />
+
+	<div style="color: green">${mensagem}</div>
+
+	<br />
+
+	<c:if test="${not empty listaItens}">
+		<br />
+		Resultados encontrado(s): <b>${fn:length(listaItens)}</b>
+		<br />
+		<br />
+
+		<table>
+			<tr>
+				<td><b>Id</b></td>
+				<td><b>Titulo</b></td>
+				<td><b>Preco</b></td>
+				<td><b>Descricao</b></td>
+			</tr>
+			<c:forEach var="item" items="${listaItens}">
+				<tr>
+					<td>${item.item_id}</td>
+					<td>${item.item_titulo}</td>
+					<td>${item.item_preco}</td>
+					<td>${item.item_descricao}</td>
+					<td>
+						<form method="post" action="preparaEditarItem">
+							<input type="submit" value="Editar" /> <input type="hidden"
+								value="${item.item_id}" name="item" />
+						</form>
+
+						<form method="post" action="excluirItem">
+							<input type="submit" value="Excluir" /> 
+							<input type="hidden"
+								value="${item.item_id}" name="item" />
+						</form>
+					</td>
+				</tr>
+			</c:forEach>
+		</table>
+	</c:if>
+
+
+
+	<br />
+
+	<a href="index.jsp">Voltar</a>
+	
+	
+	
             </div>
         </div>
 
